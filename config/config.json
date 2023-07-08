@@ -1,23 +1,23 @@
 {
   "development": {
-    "username": "freedb_matvey_m",
-    "password": "erUQ%cKe3%mtK4y",
+    "username": "freedb_matveyM",
+    "password": "rDGcTeT@2HzEUT3",
     "database": "freedb_shop-server",
     "host": "sql.freedb.tech",
     "dialect": "mysql",
     "port": 3306
   },
   "test": {
-    "username": "freedb_matvey_m",
-    "password": "erUQ%cKe3%mtK4y",
+    "username": "freedb_matveyM",
+    "password": "rDGcTeT@2HzEUT3",
     "database": "freedb_shop-server",
     "host": "sql.freedb.tech",
     "dialect": "mysql",
     "port": 3306
   },
   "production": {
-    "username": "freedb_matvey_m",
-    "password": "erUQ%cKe3%mtK4y",
+    "username": "freedb_matveyM",
+    "password": "rDGcTeT@2HzEUT3",
     "database": "freedb_shop-server",
     "host": "sql.freedb.tech",
     "dialect": "mysql",
