@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import { faker } from '@faker-js/faker';
 ('use strict');
 
@@ -43,8 +44,8 @@ export async function up(queryInterface, Sequelize) {
       description: faker.lorem.sentence(10),
       images: JSON.stringify(
         [...Array(7)].map(
-          () => `${faker.image.technics()}?random=${faker.random.numeric(30)}`
-        )
+          () => `${faker.image.technics()}?random=${faker.random.numeric(30)}`,
+        ),
       ),
       vendor_code: faker.internet.password(),
       in_stock: faker.random.numeric(1),
@@ -54,7 +55,7 @@ export async function up(queryInterface, Sequelize) {
       compatibility: faker.lorem.sentence(7),
       createdAt: new Date(),
       updatedAt: new Date(),
-    }))
+    })),
   );
 }
 export async function down(queryInterface, Sequelize) {
