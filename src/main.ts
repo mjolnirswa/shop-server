@@ -18,7 +18,11 @@ async function bootstrap() {
 
   app.enableCors({
     credentials: true,
-    origin: ['http://localhost:3001', 'https://shop-client-e7m4.onrender.com'],
+    origin: [
+      'http://localhost:3001',
+      'https://shop-client-e7m4.onrender.com',
+      'https://shop-client-six.vercel.app',
+    ],
   });
 
   const config = new DocumentBuilder()
