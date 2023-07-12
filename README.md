@@ -1,3 +1,13 @@
+## О приложении
+Приложение представляет собой backend-часть e-commerce сайта на Nest.
+
+Полное описание API вы можете посмотреть на localhost:3000/swagger(необходимо установить/клонировать из репозитория).
+
+Аунтефикация пользователей происходит через сессии.
+
+Используется реляционная БД(MySQL), Sequelize ORM, Typescript
+
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
