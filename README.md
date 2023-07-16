@@ -5,7 +5,7 @@
 
 Аунтефикация пользователей происходит через сессии.
 
-Используется реляционная БД(MySQL), Sequelize ORM, Typescript
+Используется реляционная БД(MySQL), Sequelize ORM, Typescript и тд
 
 
 <p align="center">
